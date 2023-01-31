@@ -7,7 +7,7 @@ const Firstpage = () => {
         <>
 <div className="bg-black absolute" id="back">
         <div className="bg-zinc-300 mt-40" id="caixa">
-            <h1 id="um"> Seja bem vind@ ao meu portfólio!</h1>
+            <h1 id="um"> Seja bem vind@ ao meu portfólio!!</h1>
                 <h2 id="dois">É um prazer receber você aqui</h2>
                     <h3 id="tres"> ⇁ Antes de começarmos me conta ↽ </h3>
                         <h3 id="quatro">  Você é um? </h3>
