@@ -2,3 +2,507 @@
   text-align: center;
 }
 
+#back {
+  width: 100%;
+  height: auto;
+  background-image: url(https://64.media.tumblr.com/acf81f215cc74ed2f6e765d9b1897714/81accfa51a69d0e0-49/s500x750/59b8a08ade9caa94d0e239813d6d02acec4f319b.gifv);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  
+}
+
+/*Web*/
+
+#caixa {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  opacity: 80%;
+}
+
+      #um{
+          width: 100%;
+          height: 100%;
+          font-family: 'Gurajada';
+          font-size: 96px;
+          line-height: 100px;  
+      }
+
+      #dois {
+          width: 100%;
+          height: 100%;
+          font-family: 'Gurajada';
+          font-size: 64px;
+          line-height: 96px;
+          color: #329F64;
+      }
+
+      #tres {
+      width: 100%;
+      height: 100%;
+
+      font-family: 'Gurajada';
+      font-size: 64px;
+      line-height: 126px;
+      text-align: center;
+
+      color: #802828;
+      }
+
+      #quatro {
+          width: 100%;
+          height: 100%;
+          font-family: 'Gurajada';
+          font-size: 64px;
+          line-height: 86px;
+          text-align: center;
+          color: #000000;
+      }
+
+
+/*Caixa de seleção*/
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #FFFF;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 80%;
+}
+
+          #rec {
+              display: flex;
+              background-color: #329F64;
+              width: 500px;
+              height: 350px;
+              border: 10px;
+              align-items: center;
+              justify-content: center;
+              font-size: 90px;
+              text-align: center;
+              font-family: 'Gurajada';
+              font-style: normal;
+          }
+
+          #est {
+              width: 500px;
+              height: 350px;
+              background: rgba(47, 147, 129, 0.8);
+              border: 10px;
+              font-size: 90px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-align: center;
+              font-family: 'Gurajada';
+              font-style: normal;
+          }
+
+          #rec:hover {
+              background-color: #802828;
+              transition: 0.5s;
+          }
+
+          #est:hover {
+              background-color: #802828;
+              transition: 0.5s;
+          }
+
+
+          
+
+#container3{
+display: block;
+justify-content: space-around;
+color: rgb(0, 0, 0);
+max-width: 80%;
+margin-left: auto;
+margin-right: auto;
+opacity: 80%;
+}
+
+
+/*Mobile*/
+
+@media screen and (min-width: 1920px){
+  #back {
+      width: 100%;
+      height: 115vh;
+      background-image: url(https://64.media.tumblr.com/acf81f215cc74ed2f6e765d9b1897714/81accfa51a69d0e0-49/s500x750/59b8a08ade9caa94d0e239813d6d02acec4f319b.gifv);
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width:1300px){
+ #rec {
+  background-color: #329F64;
+              width: 400px;
+              height: 250px;
+              border: 10px;
+              font-size: 70px;
+              text-align: center;
+              font-family: 'Gurajada';
+              font-style: normal;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+ } 
+
+ #est {
+  width: 400px;
+  height: 250px;
+  background: rgba(47, 147, 129, 0.8);
+  border: 10px;
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Gurajada';
+  font-style: normal;
+}
+
+#back {
+  width: 100%;
+  height: 169vh;
+  background-image: url(https://64.media.tumblr.com/acf81f215cc74ed2f6e765d9b1897714/81accfa51a69d0e0-49/s500x750/59b8a08ade9caa94d0e239813d6d02acec4f319b.gifv);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+}
+
+
+@media screen and (max-width: 1024px){
+  #caixa {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
+  #container{
+      display: flex;
+      justify-content: space-around;
+      color: #FFFF;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  #back {
+      width: 100%;
+      height: 150vh;
+      background-image: url(https://64.media.tumblr.com/acf81f215cc74ed2f6e765d9b1897714/81accfa51a69d0e0-49/s500x750/59b8a08ade9caa94d0e239813d6d02acec4f319b.gifv);
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+  }
+
+  #container2{
+      display: block;
+      justify-content: space-around;
+      color: rgb(0, 0, 0);
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      opacity: 80%;
+      }
+  
+  #rec {
+      font-size: 55px;
+      width: 300px;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  #est {
+      font-size: 55px;
+      width: 300px;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  #um {
+      width: 100%;
+      height: 100%;
+      font-family: 'Gurajada';
+      font-weight: 400;
+      font-size: 76px;
+      line-height: 90px;
+  }
+
+  #dois {
+      width: 100%;
+      height: 100%;
+      font-family: 'Gurajada';
+      font-style: normal;
+      font-size: 64px;
+      line-height: 36px;
+      color: #329F64;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #caixa {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
+  #container{
+      display: flex;
+      justify-content: space-around;
+      color: #FFFF;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  #back {
+      width: 100%;
+      height: 150vh;
+      background-image: url(https://64.media.tumblr.com/acf81f215cc74ed2f6e765d9b1897714/81accfa51a69d0e0-49/s500x750/59b8a08ade9caa94d0e239813d6d02acec4f319b.gifv);
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+  }
+ 
+  #rec {
+      font-size: 35px;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  #est {
+      font-size: 35px;
+      width: 200px;
+      height: 200px;
+  }
+  
+  #um {
+      width: 100%;
+      height: 100%;
+      font-family: 'Gurajada';
+      font-weight: 400;
+      font-size: 76px;
+      line-height: 100px;
+  }
+
+  #dois {
+      width: 100%;
+      height: 100%;
+      font-family: 'Gurajada';
+      font-style: normal;
+      font-size: 64px;
+      line-height: 46px;
+      color: #329F64;
+  }
+
+  #container3{
+      display: block;
+      justify-content: space-around;
+      color: rgb(0, 0, 0);
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      opacity: 80%;
+      }
+}
+
+@media screen and (min-width: 378px) and (max-width: 694px){
+  #caixa {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
+  #container{
+      display: flex;
+      justify-content: space-around;
+      color: #FFFF;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }  
+  #rec {
+      font-size: 20px;
+      width: 100px;
+      height: 100px;
+      
+  }
+
+  #back {
+      width: 100%;
+      height: 170vh;
+      background-image: url(https://64.media.tumblr.com/acf81f215cc74ed2f6e765d9b1897714/81accfa51a69d0e0-49/s500x750/59b8a08ade9caa94d0e239813d6d02acec4f319b.gifv);
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+  }
+
+  #est {
+      font-size: 30px;
+      width: 100px;
+      height: 100px;
+  }
+
+  #um{
+      width: 100%;
+      height: 100%;
+      font-family: 'Gurajada';
+      font-weight: 400;
+      font-size: 46px;
+      line-height: 100px;
+  }
+
+  #dois {
+      width: 100%;
+      height: 100%;
+      font-family: 'Gurajada';
+      font-style: normal;
+      font-size: 44px;
+      line-height: 36px;
+      color: #329F64;
+  }
+
+  #tres {
+      width: 100%;
+      height: 100%;
+      
+      font-family: 'Gurajada';
+      font-size: 40px;
+      line-height: 126px;
+      text-align: center;
+      
+      color: #802828;
+      }
+
+      #quatro {
+          width: 100%;
+          height: 100%;
+          font-family: 'Gurajada';
+          font-size: 44px;
+          line-height: 40px;
+          text-align: center;
+          color: #000000;
+      }
+
+  #container3{
+          display: block;
+          justify-content: space-around;
+          color: rgb(0, 0, 0);
+          max-width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+          opacity: 80%;
+          }
+}
+
+@media screen and (min-width: 0px) and (max-width: 376px){
+  #caixa {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
+  #container{
+      display: flex;
+      justify-content: space-around;
+      color: #FFFF;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      
+      
+  }
+
+  #back {
+      width: 100%;
+      height: 190vh;
+      background-image: url(https://64.media.tumblr.com/acf81f215cc74ed2f6e765d9b1897714/81accfa51a69d0e0-49/s500x750/59b8a08ade9caa94d0e239813d6d02acec4f319b.gifv);
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+  }
+  
+  #rec {
+      font-size: 30px;
+      width: 100px;
+      height: 100px;
+  }
+
+  #est {
+      font-size: 30px;
+      width: 100px;
+      height: 100px;
+  }
+
+  #um{
+      width: 100%;
+      height: 100%;
+      font-family: 'Gurajada';
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 100px;
+  }
+
+  #dois {
+      width: 100%;
+      height: 100%;
+      font-family: 'Gurajada';
+      font-style: normal;
+      font-size: 34px;
+      line-height: 36px;
+      color: #329F64;
+  }
+
+  #tres {
+      width: 100%;
+      height: 100%;
+      
+      font-family: 'Gurajada';
+      font-size: 36px;
+      line-height: 126px;
+      text-align: center;
+      
+      color: #802828;
+      }
+
+  #quatro {
+          width: 100%;
+          height: 100%;
+          font-family: 'Gurajada';
+          font-size: 45px;
+          line-height: 46px;
+          text-align: center;
+          color: #000000;
+      }
+      
+  #container3{
+          display: block;
+          justify-content: space-around;
+          color: rgb(0, 0, 0);
+          max-width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+          opacity: 80%;
+          }
+}
+
+
+
+
+
+
+
