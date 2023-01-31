@@ -6,6 +6,7 @@ import Estudante from './study';
 
 function App() {
   return (
+    
     <BrowserRouter>
         <Routes>
           <Route path='/' element= {<Firstpage/>}/>
