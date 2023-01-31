@@ -6,7 +6,8 @@ import Estudante from './study';
 
 function App() {
   return (
-    
+    <>
+    <Firstpage />
     <BrowserRouter>
         <Routes>
           <Route path='/' element= {<Firstpage/>}/>
@@ -14,6 +15,7 @@ function App() {
               <Route path='Estudante' element= {<Estudante/>}/>
         </Routes>
      </BrowserRouter>
+    </>
   );
 }
 
