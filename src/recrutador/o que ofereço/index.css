@@ -1,0 +1,138 @@
+/*Reset CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*WEB*/
+#primeiro {
+    width: 100%;
+    height: auto;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+#webfoto{
+    width: 100px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+        #web1{
+        font-family: 'Major Mono Display', monospace;
+        font-size: 40px;
+        text-align: center;
+        }
+
+        #web2{
+        font-family: 'Gowun Dodum', sans-serif;
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+        }
+
+#mobilefoto{
+width: 100px;
+display: block; 
+margin-left: auto;
+margin-right: auto;
+}
+
+        #mob1{
+        font-family: 'Major Mono Display', monospace;
+        font-size: 40px;
+        text-align: center;
+        
+        
+        }
+
+        #mob2{
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Gowun Dodum', sans-serif;
+        }
+
+
+#uxfoto{
+width: 200px;
+display: block; 
+margin-left: auto;
+margin-right: auto;
+}
+
+        #ux1{
+        font-family: 'Major Mono Display', monospace;
+        font-size: 35px;
+        text-align: center;
+        }
+                    
+        #ux2{
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Gowun Dodum', sans-serif;
+        } 
+
+/*MediaQuery*/
+
+@media (min-width:1366px){
+    #primeiro {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width:1024px) {
+    #oque{
+        font-size: 40px;
+    }
+
+    #web1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:428px) {
+    #oque{
+        font-size: 20px;
+    }
+    #primeiro {
+        width: 100%;
+        height: auto;
+    }
+
+    #ux1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:360px) {
+    #oque{
+        font-size: 20px;
+    }
+    #primeiro {
+        width: 100%;
+        height: auto;
+    }
+
+    #ux1 {
+        font-size: 30px;
+    }
+}
+
+            
+
+
+
+
+    
+
+
+
+

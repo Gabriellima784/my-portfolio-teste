@@ -1,0 +1,141 @@
+/*Web*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#background2 {
+    width: auto;
+    height: auto;
+}
+
+#port {
+    font-family: 'Gurajada', serif;
+    font-size: 96px;
+    text-align: center;
+    color: black;
+}
+
+#texto {
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+#container2 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#card {
+
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0);
+    border: 2px solid rgb(241, 12, 12);
+    border-radius: 10px;
+    position: relative;
+}
+
+#card2 {
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0);
+    border: 2px solid rgb(255, 7, 7);
+    border-radius: 10px;
+    position: relative;
+}
+
+#card3 {
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0);
+    border: 2px solid rgb(255, 7, 7);
+    border-radius: 10px;
+    position: relative;
+}
+
+#card4 {
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0);
+    border: 2px solid rgb(255, 7, 7);
+    border-radius: 10px;
+    position: relative;
+}
+
+
+/*Mobile*/
+
+@media screen and (max-width:1115px) {
+    #container2 {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    #card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #card2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #card3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #card4 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+
+@media screen and (max-width:768px) {
+    #container2 {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+    #card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #card2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #card3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #card4 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}

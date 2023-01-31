@@ -1,0 +1,141 @@
+/*Web*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+#header {
+    width: auto;
+    height: 100vh;
+    background-image: url(https://64.media.tumblr.com/acf81f215cc74ed2f6e765d9b1897714/81accfa51a69d0e0-49/s500x750/59b8a08ade9caa94d0e239813d6d02acec4f319b.gifv);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#textoheader {
+    text-align: center;
+    font-size: 20px;
+}
+    #ho {
+        cursor: pointer;
+    }
+
+    #of {
+        cursor: pointer;
+    }
+
+    #projetos {
+        cursor: pointer;
+    }
+
+    #cont {
+        cursor: pointer;
+    }
+
+            #ho:hover {
+                color: rgb(255, 187, 0);
+                transition: 0.3s;
+                font-size: 22px;
+            }
+
+            #of:hover {
+                color: rgb(255, 187, 0);
+                transition: 0.3s;
+                font-size: 22px;
+            }
+
+            #projetos:hover {
+                color: rgb(255, 187, 0);
+                transition: 0.3s;
+                font-size: 22px;
+            }
+
+            #cont:hover {
+                color: rgb(255, 187, 0);
+                transition: 0.3s;
+                font-size: 22px;
+            }
+
+
+#texto1 {
+    margin-top: 20%;
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 38px;
+}
+
+#texto2 {
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 66px;
+    color: rgb(235, 0, 0)
+}
+
+#texto3 {
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+}
+
+#texto4 {
+    color: brown;
+}
+
+
+/*Mobile*/
+@media (max-width:1024px) { 
+    #header {
+        width: auto;
+        height: auto;
+        background-image: url(https://64.media.tumblr.com/acf81f215cc74ed2f6e765d9b1897714/81accfa51a69d0e0-49/s500x750/59b8a08ade9caa94d0e239813d6d02acec4f319b.gifv);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+
+    #texto1 {
+        font-size: 30px;
+        margin-top: 19%;
+    }
+
+    #texto2 {
+        font-size: 44px;
+    }
+
+    #texto3 {
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width:428px) {
+
+    #header {
+        width: auto;
+        height: auto;
+    }
+
+
+    #textoheader {
+        font-size: 13px;
+    }
+
+    #texto1 {
+        font-size: 20px;
+        margin-top: 19%;
+    }
+
+    #texto2 {
+        font-size: 24px;
+    }
+
+    #texto3 {
+        font-size: 15px;
+    }
+}

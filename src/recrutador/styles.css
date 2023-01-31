@@ -1,0 +1,107 @@
+.App {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+    margin-bottom: auto;
+
+
+  }
+
+  #html {
+    background-color: rgb(255, 255, 255);
+    background-image: url("https://i.imgur.com/1SRP8W3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+}
+
+#js {
+  
+    background-color: rgb(255, 255, 255);
+    background-image: url("https://i.imgur.com/jBreGDC.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+}
+
+#css {
+  
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://i.imgur.com/GTXXAqI.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 140px;
+  height: 140px;
+}
+
+#react {
+  
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://i.imgur.com/EQiBEH1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 140px;
+  height: 140px;
+}
+
+#figma {
+  
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://i.imgur.com/pLAbg86.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 140px;
+  height: 140px;
+}
+
+#flutter {
+  
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://i.imgur.com/Zf4pKQP.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 140px;
+  height: 140px;
+}
+
+#sql {
+  
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://i.imgur.com/xACVF3J.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 140px;
+  height: 140px;
+}
+
+#git {
+  
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://i.imgur.com/89N5JiA.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 140px;
+  height: 140px;
+}
+
+/*Mobile*/
+
+@media (min-width:430px) and (max-width:603px) {
+  .App {
+    margin-top: 0%;
+    height: 85vh;
+  }
+
+}
+
+@media (max-width:430px) {
+  .App {
+    margin-top: -30%;
+    height: 50vh;
+  }
+
+}
