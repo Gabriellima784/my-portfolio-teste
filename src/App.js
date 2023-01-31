@@ -7,7 +7,7 @@ import Estudante from './study';
 function App() {
   return (
     <>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename='process.env.PUBLIC_URL'>
         <Routes>
           <Route path='/' element= {<Firstpage/>}/>
             <Route path='Recrutador' element= {<Recrutador/>}/>
