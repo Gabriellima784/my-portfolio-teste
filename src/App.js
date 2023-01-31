@@ -7,6 +7,7 @@ import Estudante from './study';
 function App() {
   return (
     <>
+    <div>CAixa de texto</div>
     <BrowserRouter>
         <Routes>
           <Route path='/' element= {<Firstpage/>}/>
