@@ -1,7 +1,7 @@
 import './App.css';
 import Firstpage from './firstpage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Recrutador from './recrutador';
+import Recrutador from '../recrutador';
 import Estudante from './study';
 
 function App() {
